@@ -24,7 +24,7 @@ tools:
   - item: OpenCV
   - item: Ansible
 
-Technologies:
+technologies:
   - item: Kubernetes
   - item: Docker
   - item: AWS
