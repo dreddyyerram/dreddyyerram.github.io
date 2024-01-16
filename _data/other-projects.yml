@@ -8,6 +8,18 @@
     - thing: Image Processing
     - thing: Algorithms
 
+- name: AssistMe
+  url: https://assistme-39d97.web.app/
+  code: https://github.com/dreddyyerram/AssistMe
+  description: A Mock test portal built using Angular and Firebase.
+  used:
+    - thing: Python
+    - thing: Firebase
+    - thing: Django REST Framework
+    - thing: Typescript
+    - thing: HTML/CSS
+    - thing: Angular
+
 - name: Bird Audio Classification
   url: https://github.com/dreddyyerram/birdclassification
   code: https://github.com/dreddyyerram/birdclassification
@@ -18,8 +30,19 @@
     - thing: Signal Processing
     - thing: Colab
 
+- name: Aavishkar
+  url: https://aavishkar-2020.web.app/
+  code: https://github.com/dreddyyerram/aavishkar
+  description: An event management website created to manage and track the particpant and events
+  used:
+    - thing: Python
+    - thing: Firebase
+    - thing: Django
+    - thing: JavaScript
+    - thing: HTML/CSS
+
 - name: Amritahub
-  url: https://github.com/dreddyyerram/amritahub
+  url: https://amrita-hub.web.app/
   code: https://github.com/dreddyyerram/amritahub
   description: An intra-college social networking website developed using Django framework
   used:
@@ -28,5 +51,6 @@
     - thing: Kafka
     - thing: Django
     - thing: Redis
+    - thing: Firebase
     - thing: JavaScript
     - thing: HTML/CSS
