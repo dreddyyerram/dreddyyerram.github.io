@@ -1,0 +1,367 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+.page {
+    width: 1000px;
+}
+
+.section{
+    width: 1000px;
+}
+
+.nav {
+    width: 1000px;
+    height: 60px;
+    line-height: 60px;
+    padding: 0px 60px 0px 70px;
+    background-color: #FFFFFF;
+    
+}
+
+div.navtitle {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(175, 148, 83);
+    float: left;
+    line-height: 60px;
+    font-weight: 90px;
+}
+
+ul {
+    float: right;
+}
+
+ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+a.item_active {
+    color: rgb(175, 148, 83);
+}
+a.item_inactive {
+    color: rgb(0, 0, 0);
+}
+
+.header li a {
+    font: 14px sans-serif;
+    padding: 0px 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(175, 148, 83);
+
+}
+
+.img1{
+    background-image: url("./images/image3.png");
+    background-size: 1000px;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    width: 1000px;
+    
+    
+
+}
+.wording_overlay1 {
+    font: 40px 'eb garamond', serif;
+    line-height: 65px;
+    text-align: center;
+    padding-top: 210px;
+    height: 700px;
+}
+
+.Mem1 {
+    color: white;
+    letter-spacing: 12px;
+}
+
+#section2 {
+    height: 500px;
+    background: white;
+    padding: 50px;
+}
+
+
+.image22_container {
+    margin-left: 50px;
+    width: 575px;
+    height: 450px;
+    float: left;
+}
+
+.image22 {
+    width: 575px;
+    height: 450px;
+}
+
+.services_block {
+    background-image: url("./images/flower.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    width: 275px;
+    height: 450px;
+}
+
+.services {
+    margin: 90px 0px 0px 0px;
+    text-align: center;
+}
+
+.services_text {
+    letter-spacing: 10px;
+    line-height: 10px;
+    font: 20px sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.dream {
+    text-align: center;
+    margin: 100px 0px 50px;
+    left: 29px;
+}
+
+.dream_text {
+    color: #FFFFFF;
+    line-height: 14px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+
+.discover {
+    text-align: center;
+    margin: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px 15px;
+
+}
+
+.discover_text {
+    font: 13px sans-serif;
+    color: rgb(255, 255, 255);
+} 
+
+
+
+
+
+#section3 {
+    background: white;
+    padding: 50px 50px 0px 50px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left_div {
+    width:fit-content;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+
+}
+
+.leftButton {
+    color: rgb(175, 148, 83);
+    background-color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.rightButton {
+    color: rgb(175, 148, 83);
+    background-color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.right_div {
+    width:fit-content;
+    padding-bottom: 40px;
+    display: flex;
+    float: right;
+    align-items: center;
+}
+
+.Mem3 {
+    color: black;
+    letter-spacing: 3px;
+    font: 25px 'eb garamond', serif;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+
+.content0_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px
+
+}
+
+.quotes_div {
+    width: 50px;
+    padding: 2px;
+    font-size: 60px;
+
+}
+.content1_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.Mem4 {
+    font-size: 13px;
+    font-family: sans-serif;
+    color: rgb(175, 148, 83);
+    text-align: center;
+    line-height: normal;
+    letter-spacing: 1px;
+
+}
+
+.content2_div {
+    padding: 40px;
+}
+
+
+
+
+
+
+#section4 {
+    padding: 50px;
+}
+.section4_container {
+    background-image: url(./images/image2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 545px;
+
+}
+
+.gallery_block {
+    background-image: url("./images/flower.png");
+    background-repeat: no-repeat;
+    float: right;
+    width: 250px;
+    height: 425px;
+    margin: 60px
+}
+
+.gallery {
+    margin: 80px 0px 0px 0px;
+    text-align: center;
+}
+
+.gallery_text {
+    letter-spacing: 10px;
+    line-height: 10px;
+    font: 25px sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.memories {
+    text-align: center;
+    margin: 90px 0px 50px;
+    left: 29px;
+}
+
+.memories_text {
+    color: #FFFFFF;
+    line-height: 27px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+
+
+.discover2 {
+    text-align: center;
+    margin: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px 15px;
+
+}
+
+
+
+
+
+
+#section5 {
+    height: 250px;
+    padding: 50px;
+}
+.book_link {
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+
+}
+
+.book_text {
+    font: 13px sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#section5 {
+    background: white;
+    padding: 50px;
+
+}
+
+.section5_container {
+    background-color: rgb(175, 148, 83);
+    position: static;
+    display: flex;
+    align-items: stretch;
+    width: 900px;
+    padding: 50px 60px 50px 60px;
+}
+
+.block {
+    padding: 5px;
+    width: 150px;
+    overflow-wrap: break-word;
+}
+.book_block {
+    width: 200px;
+}
+.sep{
+    padding : 10px;
+    border-left: 2px solid rgba(255, 255, 255);
+    width: 2px;
+}
+
+.footer_text {
+    line-height: 4px;
+    font: 14px sans-serif;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+}
