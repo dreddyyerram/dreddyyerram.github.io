@@ -54,7 +54,7 @@ a.item_inactive {
 
 .header li a {
     font: 14px sans-serif;
-    padding: 0px 30px;
+    padding: 0px 20px;
     text-decoration: none;
 }
 
@@ -65,9 +65,9 @@ a:hover {
 
 .img1{
     background-image: url("./images/image3.png");
-    background-size: 1000px;
-    background-position: fixed;
+    background-attachment: fixed;
     background-repeat: no-repeat;
+    background-size: 1000px 900px;
     width: 1000px;
     
     
@@ -107,7 +107,7 @@ a:hover {
 
 .services_block {
     background-image: url("./images/flower.png");
-    background-position: center;
+
     background-repeat: no-repeat;
     float: left;
     width: 275px;
@@ -205,7 +205,7 @@ a:hover {
 .Mem3 {
     color: black;
     letter-spacing: 3px;
-    font: 25px 'eb garamond', serif;
+    font: 30px 'eb garamond', serif;
     line-height: 40px;
     text-align: center;
 
@@ -257,8 +257,8 @@ a:hover {
 }
 .section4_container {
     background-image: url(./images/image2.png);
-    background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 900px;
     height: 545px;
 
@@ -267,6 +267,7 @@ a:hover {
 .gallery_block {
     background-image: url("./images/flower.png");
     background-repeat: no-repeat;
+    background-size: 250px 425px;
     float: right;
     width: 250px;
     height: 425px;
@@ -350,18 +351,29 @@ a:hover {
     width: 150px;
     overflow-wrap: break-word;
 }
+
+.event{
+    width: 170px;
+}
+
 .book_block {
-    width: 200px;
+    margin-left: 55px;
+    margin-top: 15px;
+    width: 180px;
 }
 .sep{
     padding : 10px;
-    border-left: 2px solid rgba(255, 255, 255);
+    margin-top: 10px;
+    height: 45px;
+    border-left: 1px solid rgba(255, 255, 255);
     width: 2px;
 }
 
 .footer_text {
-    line-height: 4px;
-    font: 14px sans-serif;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    line-height: 12px;
+    font: 12px sans-serif;
     color: rgb(255, 255, 255);
-    letter-spacing: 1px;
+    letter-spacing: 0.8px;
 }
