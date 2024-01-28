@@ -107,7 +107,7 @@ a:hover {
 
 .services_block {
     background-image: url("./images/flower.png");
-
+	background-size: 275px 450px;
     background-repeat: no-repeat;
     float: left;
     width: 275px;
