@@ -1,13 +1,3 @@
-- name: Multimodal image fusion 
-  url: https://github.com/dreddyyerram/ImageFusion
-  code: https://github.com/dreddyyerram/ImageFusion
-  description: Image fusion of MRI and CT using wavelet transform for medical diagnosis.
-  used:
-    - thing: Computer Vision
-    - thing: Python
-    - thing: Image Processing
-    - thing: Algorithms
-
 - name: AssistMe
   url: https://assistme-39d97.web.app/
   code: https://github.com/dreddyyerram/AssistMe
@@ -19,6 +9,25 @@
     - thing: Typescript
     - thing: HTML/CSS
     - thing: Angular
+
+- name: Electoral Roll Data Parser
+  url: https://colab.research.google.com/drive/1AxbPAVHGDad-d6QXA19p24KM7WA5vu40?usp=sharing
+  code: https://colab.research.google.com/drive/1AxbPAVHGDad-d6QXA19p24KM7WA5vu40?usp=sharing
+  description: Voter data detection from Electoral Roll images using OpenCV and Tesseract.
+  used:
+    - thing: Computer Vision
+    - thing: Python
+    - thing: Image Processing
+
+- name: Multimodal image fusion
+  url: https://github.com/dreddyyerram/ImageFusion
+  code: https://github.com/dreddyyerram/ImageFusion
+  description: Image fusion of MRI and CT using wavelet transform for medical diagnosis.
+  used:
+    - thing: Computer Vision
+    - thing: Python
+    - thing: Image Processing
+    - thing: Algorithms
 
 - name: Bird Audio Classification
   url: https://github.com/dreddyyerram/birdclassification

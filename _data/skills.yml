@@ -4,11 +4,13 @@ languages:
   - item: SQL
   - item: Shell
   - item: JS (Basics)
+  - item: TS (Basics)
   - item: R (Basics)
   - item: Golang (Basics)
 
 frameworks:
   - item: Django
+  - item: Swift IOS
   - item: Angular
   - item: React
   - item: Flask
@@ -31,4 +33,4 @@ technologies:
   - item: VMware ESXI
   - item: VMware NSX-T
   - item: Deep Learning
-  - item:  Machine Learning
+  - item: Machine Learning
