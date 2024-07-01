@@ -1,3 +1,14 @@
+- name: SceneTrace
+  url: https://github.com/SceneTrace/SceneTrace
+  code: https://github.com/SceneTrace/SceneTrace
+  description: A Python application utilizing VectorDB to identify the exact time frame and original clip for a given noised video segment within a video database.
+  used:
+    - thing: Python
+    - thing: Tkinter
+    - thing: Video Processing
+    - thing: Computer Vision
+    - thing: VectorDB
+
 - name: AssistMe
   url: https://assistme-39d97.web.app/
   code: https://github.com/dreddyyerram/AssistMe
@@ -13,7 +24,7 @@
 - name: Electoral Roll Data Parser
   url: https://colab.research.google.com/drive/1AxbPAVHGDad-d6QXA19p24KM7WA5vu40?usp=sharing
   code: https://colab.research.google.com/drive/1AxbPAVHGDad-d6QXA19p24KM7WA5vu40?usp=sharing
-  description: Voter data detection from Electoral Roll images using OpenCV and Tesseract.
+  description: Voter data extraction and management from Electoral Roll images using OpenCV, Tesseract and GCP.
   used:
     - thing: Computer Vision
     - thing: Python
